@@ -1,0 +1,7 @@
+mysql不区分大小写
+创建数据库 CREATE datbase [IF NOT EXISTS]  <数据库名#不要以数字开头#>
+[default character set utf8]  指定数据库的字符集。指定字符集的目的是为了避免在数据库中存储的数据出现乱码的情况。如果在创建数据库时不指定字符集，那么就使用系统的默认字符集。
+ DEFAULT COLLATE utf8_chinese_ci  [DEFAULT] COLLATE：指定字符集的默认校对规则。
+
+MySQL 的字符集（CHARACTER）和校对规则（COLLATION）是两个不同的概念。字符集是用来定义 MySQL 存储字符串的方式，校对规则定义了比较字符串的方式。
+
