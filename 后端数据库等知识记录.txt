@@ -4,4 +4,3 @@ mysql不区分大小写
  DEFAULT COLLATE utf8_chinese_ci  [DEFAULT] COLLATE：指定字符集的默认校对规则。
 
 MySQL 的字符集（CHARACTER）和校对规则（COLLATION）是两个不同的概念。字符集是用来定义 MySQL 存储字符串的方式，校对规则定义了比较字符串的方式。
-

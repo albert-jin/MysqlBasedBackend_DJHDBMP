@@ -22,16 +22,16 @@ class BaseTable(object):
     def table_initialize(self):  # 创建该表
         pass
     @abc.abstractmethod
-    def insertData(self,rows_info):  # 增
+    def __insertData(self,rows_info):  # 增
         pass
     @abc.abstractmethod
     def deleteData(self,condition):  # 删
         pass
     @abc.abstractmethod
-    def updateData(self):  # 改
+    def updateData(self,action:str,condition:str):  # 改
         pass
     @abc.abstractmethod
-    def selectData(self):  # 查
+    def selectData(self,condition):  # 查
         pass
 
     def otherActions(self):
